@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Common
+{
+    //internal class TypeA
+    //{
+    //   private int x;
+    //   internal int y;
+    //   public int z;
+
+    //   protected int a;
+    //   internal protected int b;
+    //   private protected int c;
+    //}
+    //internal class TypeB
+    //{
+    //    void Myfunc()
+    //    {
+    //        //TypeA typeA = new TypeA();
+    //        //typeA.x=1; //private invalid [in his scoope only]
+    //        //typeA.y=1; //valid internal [accessiable in same project]
+    //        //typeA.z = 1;//public
+
+
+    //        ////if no inhertance delete protected and see  
+    //        //typeA.a=2; //bec no inertance ->private and delete protected
+    //        //typeA.b = 2;//valid bec it become internal 
+    //        //typeA.c = 2;  //private
+    //    }
+    //}
+    //internal class Typec:TypeA
+    //{
+    //    //protected int a; in another project
+    //    //internal protected int b; become private in another project
+    //    //private protected int c; can inertid in same project only
+    //    public Typec()
+    //    {
+    //        //x = 10;//invalid private
+    //        //y = 10; //inherited ->internal
+    //        //z = 10;// stay public
+
+    //        //a = 10;//inherited  ==>private
+    //        //b = 10;//inherited  ==>internal
+    //        //c = 10;//inherited  ==>private
+
+    //    }
+    //}
+}
